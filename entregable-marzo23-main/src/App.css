@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    border-color: pink;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+h1{
+    color: blueviolet; 
+    font-size: 24px;
+    margin-bottom: 20px;
+}
